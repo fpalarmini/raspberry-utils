@@ -12,7 +12,7 @@ ssh-keygen -t.rsa
 save on ~/.ssh/id_rsa
 
 copy ssh-key to rasp:
-ssh-copy-id pi@192.168.0.5
+ssh-copy-id -i ~/.ssh/id_rsa pi@192.168.0.5
 or manually:
 copy the file ~/.ssh/id_rsa to ~/.ssh/authorized_keys		(client->server)
 
