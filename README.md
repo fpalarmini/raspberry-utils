@@ -2,8 +2,11 @@
 Tools for embedded linux based on raspberry
 
 enable ssh on raspbian:
+
 systemctl enalble ssh
+
 or
+
 systemctl enable ssh.service
 
 generate public rsa on the ssh-client:
